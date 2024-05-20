@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgba(48, 126, 132, 1);
+}
+
+nav.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-bottom: 6.25em;
+}
+
+main.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 60px auto;
+    gap: 30px;
+}
+
+div.vazio{
+    display: flex;
+    justify-content: center;
+    flex-flow:column wrap ;
+}
+
+div.ebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 325px;
+    height: 530px;
+    background-image: url(imgens/Default_Uma_Kombi_vintage_restaurada_com_surfboards_no_teto_es_3.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+div.title-ebook{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100px ;
+    width: 160px ;
+}
+
+div.title-dream{
+    display: flex;
+    margin-left: 10px;
+}
+
+div.title-kombi{
+    display: flex;
+    margin-left: 30px;
+}
+
+
+div.title-dream>h2 {
+    font-size: 30px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+
+}
+
+div.title-kombi>h2 {
+    font-size: 30px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+
+}
+
+div.subtitle{
+    display: flex;
+    flex-wrap: wrap;
+    height: 120px;
+    width: 230px;
+    text-align: center;
+
+}
+
+div.subtitle>p{
+    font-size: 20px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+}
+
+div.box-cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 100px;
+    width: 320px;
+    text-align: center;
+}
+
+div.box-cta>p{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+
+}
+
+div.box-dados {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 20px;
+    width: 325px;
+    height: 360px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+div.box-dados>h2 {
+    font-size: 20px;
+    font-family: "Roboto Slab", serif;
+}
+
+p {
+    font-size: 20px;
+    font-family: "Roboto Slab", serif;
+}
+
+button {
+    height: 30px;
+    width: 100px;
+}
